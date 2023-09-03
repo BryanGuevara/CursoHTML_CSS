@@ -18,3 +18,17 @@ p{
 .text-center{
     text-align: center;
 }
+
+.columna{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.precio{
+    font-size: 50px;
+    color: #00dac7;
+}
