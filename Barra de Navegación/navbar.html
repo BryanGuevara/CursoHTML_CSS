@@ -8,11 +8,22 @@
 </head>
 <body>
     <nav>
-        <button class="nav-button">menu</button>
-        <a href="#" class="nav-enlace">Inicio</a>
-        <a href="#" class="nav-enlace">Nosotros</a>
-        <a href="#" class="nav-enlace">Servicios</a>
-        <a href="#" class="nav-enlace">Contactos</a>
+        <button class="nav-button" onclick="accion()">menu</button>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+        <a href="#" class="nav-enlace desaparece">Nosotros</a>
+        <a href="#" class="nav-enlace desaparece">Servicios</a>
+        <a href="#" class="nav-enlace desaparece">Contactos</a>
     </nav>
+
+
+    <script>
+        function accion(){
+            var ancla = document.getElementsByClassName('nav-enlace');
+
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
 </body>
 </html>
