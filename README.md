@@ -1,36 +1,3 @@
-<style>
-.Nombre{
-    color:black;
-}
-.lineas{
-    color:#333;
-}
-.lista{
-    background: red;
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    width: 23%;
-}
-.lista:hover{
-   background: rgb(250, 93, 75);
-   color: #fff;
-      
-}
-.div{
-    background: rgb(228, 228, 228);
-    color: #333;
-    border: 1px solid #333;
-    margin: 0px auto;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px #888;
-    box-sizing: border-box;
-}
-</style>
 <div class='div'>
 <h1 align="center">Curso: HTML5 Y CSS3</h1>
 <h3 align="center" class='lineas'> Este es un curso que encontré en internet, acá voy a ir guardando el código que vaya creando guiándome de los videos </h3>
